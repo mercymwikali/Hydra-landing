@@ -1,0 +1,230 @@
+.flex{
+    display: flex;
+}
+
+.justify-spc-btn{
+    justify-content:space-between;
+}
+
+body{
+    background: #302C42;
+    margin: 0;
+    border-radius: 70px;
+    position: relative;
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+.main-cont{
+    margin:0 10px auto;
+    padding: 0px;
+    height: 100vh;
+}
+
+.nav-bar{
+    padding: 10px;
+    margin:10px 0 auto;
+
+}
+
+.nav-list{
+    width: 500px;
+    margin:10px 70px auto;
+    padding:0px 20px ;
+    justify-content: center;
+}
+
+a{
+    margin: 20px 20px auto;
+    padding: 3px;
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.join-nav{
+    margin:10px 70px auto ;
+    padding: 0 10px;
+    width:300px;
+}
+
+.join-nav>a:nth-child(1){
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    width: 100px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.join-nav>a:nth-child(2){
+    background:linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border-radius: 40px;
+    width:178x;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 5px 6px;
+}
+
+.main-sect{
+    padding: 20px;
+    gap:5em;
+}
+
+.vector-4{
+    position: absolute;
+}
+
+
+span{
+    color: #ffffff;
+}
+
+.text-1{
+    line-height: 50px;
+    margin: 100px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 46px;
+    background:linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    line-height: 50px;
+    font-weight: bolder;
+}
+
+mark.white{
+    color: #ffffff;
+    background-color: none;
+}
+
+
+.p-text{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    font-style:normal ;
+}
+
+
+
+.boring{
+    position: relative;
+}
+
+.mask-img{
+    position: absolute;
+    top: 100px;
+    right: 90px;
+}
+
+.white{
+    color: #ffffff;
+    -webkit-text-fill-color:currentColor;
+    font-weight: bold;
+}
+    
+ 
+
+.main-img{
+    position: absolute;
+    left: -660px;
+    top: -180px;
+}
+
+
+.button{
+    margin: 50px 10px;
+
+}
+
+button{
+    border-radius:40px ;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);    font-size: 10px;
+    font-weight: 700;
+    padding: 10px;
+    font-style: normal;
+    width: 150px;
+    border-style: none;
+}
+
+.arr{
+    margin:0 20px;
+    width:35px
+}
+
+
+.ft{
+    position: absolute;
+    border: 2px solid black;
+}
+   
+
+footer{
+    padding:2px;
+    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+    border-radius: 90px;
+    width: auto;
+    margin-top: 100px;
+}
+
+
+
+.box{
+    flex: 1;
+}
+
+
+
+
+
+span{
+    font-style: normal;
+    font-weight: normal;
+}
+
+h4{
+    color: #ffffff;
+    padding: 5px;
+}
+
+.small{
+    font-size: 12px;
+}
+
+
+
+.call-img{
+    flex-direction: column;
+}
+
+
+
+.l-sect{
+    margin:0 0px auto;
+    gap: 2em;
+    width:100%;
+    align-items: center;
+}
+
+
+.vr{
+    border-left: 1px solid #C0B7E854;
+    border-right: 1px solid #C0B7E854;
+    padding-left: 40px;
+    margin: 10px;
+}
+
+.width{
+    width: 50px;
+}
+
